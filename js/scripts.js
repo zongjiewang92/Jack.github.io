@@ -32,3 +32,13 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+function redirectToClassPage() {
+    window.location.href = "class.html";
+}
+
+function redirectToIndexPage() {
+    window.location.href = "index.html";
+}
+
