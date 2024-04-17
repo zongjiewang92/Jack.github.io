@@ -42,3 +42,27 @@ function redirectToIndexPage() {
     window.location.href = "index.html";
 }
 
+
+
+document.getElementById("downloadBtn").addEventListener("click", function () {
+    // Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file
+    var pdfUrl = "Document/CV-Zongjie Wang (Java) - English.pdf";
+
+    // Create a link element
+    var link = document.createElement("a");
+    link.href = pdfUrl;
+
+    // Set the download attribute and filename
+    link.download = "your_pdf_file.pdf";
+
+    // Append the link to the body
+    document.body.appendChild(link);
+
+    // Trigger the click event to start the download
+    link.click();
+
+    // Remove the link from the body
+    document.body.removeChild(link);
+});
+
+
