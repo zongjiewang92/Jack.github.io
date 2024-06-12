@@ -66,3 +66,48 @@ document.getElementById("downloadBtn").addEventListener("click", function () {
 });
 
 
+
+document.getElementById("downloadBtn1").addEventListener("click", function () {
+    // Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file
+    var pdfUrl = "Document/1-100.pdf";
+
+    // Create a link element
+    var link = document.createElement("a");
+    link.href = pdfUrl;
+
+    // Set the download attribute and filename
+    link.download = "1-100.pdf";
+
+    // Append the link to the body
+    document.body.appendChild(link);
+
+    // Trigger the click event to start the download
+    link.click();
+
+    // Remove the link from the body
+    document.body.removeChild(link);
+});
+
+document.getElementById("downloadBtn2").addEventListener("click", function () {
+    // Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file
+    var pdfUrl = "Document/101-200.pdf";
+
+    // Create a link element
+    var link = document.createElement("a");
+    link.href = pdfUrl;
+
+    // Set the download attribute and filename
+    link.download = "101-200.pdf";
+
+    // Append the link to the body
+    document.body.appendChild(link);
+
+    // Trigger the click event to start the download
+    link.click();
+
+    // Remove the link from the body
+    document.body.removeChild(link);
+});
+
+
+
