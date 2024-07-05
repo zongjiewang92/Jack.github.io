@@ -46,7 +46,7 @@ function redirectToIndexPage() {
 
 document.getElementById("downloadBtn").addEventListener("click", function () {
     // Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file
-    var pdfUrl = "Document/CV-Zongjie Wang (Java) - English.pdf";
+    var pdfUrl = "Document/CV-Zongjie Wang.pdf";
 
     // Create a link element
     var link = document.createElement("a");
