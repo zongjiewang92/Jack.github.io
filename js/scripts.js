@@ -46,14 +46,14 @@ function redirectToIndexPage() {
 
 document.getElementById("downloadBtn").addEventListener("click", function () {
     // Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file
-    var pdfUrl = "Document/CV-Zongjie Wang.pdf";
+    var pdfUrl = "Document/CV-Zongjie_Wang.pdf";
 
     // Create a link element
     var link = document.createElement("a");
     link.href = pdfUrl;
 
     // Set the download attribute and filename
-    link.download = "CV-Zongjie Wang.pdf";
+    link.download = "CV-Zongjie_Wang.pdf";
 
     // Append the link to the body
     document.body.appendChild(link);
