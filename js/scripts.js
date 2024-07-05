@@ -53,7 +53,7 @@ document.getElementById("downloadBtn").addEventListener("click", function () {
     link.href = pdfUrl;
 
     // Set the download attribute and filename
-    link.download = "your_pdf_file.pdf";
+    link.download = "CV-Zongjie Wang.pdf";
 
     // Append the link to the body
     document.body.appendChild(link);
